@@ -1,3 +1,4 @@
+
 public class Giocatore{
 
 private String Nome;
@@ -7,6 +8,7 @@ private boolean mazziere;
 
 
 public Giocatore(String nome, float saldo, int posizone, boolean mazziere)
+
     {
     setNome(Nome);
     setSaldo(Saldo);
@@ -26,7 +28,7 @@ public Giocatore(String nome, float saldo, int posizone, boolean mazziere)
         this.saldo=saldo;
     }
    
-    public float Saldo(){
+    public float getSaldo(){
         return saldo;
     }
        
