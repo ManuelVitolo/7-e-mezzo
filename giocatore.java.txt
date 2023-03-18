@@ -1,4 +1,14 @@
-public Giocatore(String Nome, float Saldo, int Posizone, boolean Mazziere)
+
+public class Giocatore{
+
+private String Nome;
+    private float saldo;
+   private  int posizione;
+private boolean mazziere;
+
+
+public Giocatore(String nome, float saldo, int posizone, boolean mazziere)
+
     {
     setNome(Nome);
     setSaldo(Saldo);
